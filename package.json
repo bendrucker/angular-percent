@@ -1,0 +1,45 @@
+{
+  "name": "angular-percent",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Angular filter for converting decimal proportions to percent strings",
+  "license": "MIT",
+  "repository": "bendrucker/angular-percent",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && karma start --single-run"
+  },
+  "keywords": [
+    "angular",
+    "filter",
+    "percent",
+    "decimal",
+    "filter",
+    "number"
+  ],
+  "devDependencies": {
+    "angular": "~1.5.8",
+    "angular-mocks": "~1.5.8",
+    "browserify": "~13.1.0",
+    "es2020": "~1.1.9",
+    "karma": "~1.3.0",
+    "karma-browserify": "~5.1.0",
+    "karma-cli": "~1.0.1",
+    "karma-mocha": "~1.1.1",
+    "karma-phantomjs-launcher": "~1.0.2",
+    "mocha": "~3.0.2",
+    "standard": "^8.0.0",
+    "watchify": "~3.7.0"
+  },
+  "files": [
+    "index.js",
+    "test.js"
+  ],
+  "dependencies": {
+    "decimal-to-percent": "~1.0.0"
+  }
+}
