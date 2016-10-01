@@ -23,6 +23,11 @@ angular.module('myApp', [
 <!-- 10% -->
 ```
 
+```html
+{{0.3141579 | percent:2}}
+<!-- 3.14% -->
+```
+
 
 ## License
 
